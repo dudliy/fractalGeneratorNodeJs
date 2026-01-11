@@ -30,3 +30,7 @@ cd FractalGeneratorNodeJs
 
 # Установите зависимости
 npm install
+
+# запускай генерацию 1 раз либо установи генерацию по времени в cron
+node fractal.js
+```
