@@ -1,0 +1,35 @@
+{
+  "name": "fractalgenerator",
+  "version": "1.0.0",
+  "description": "Генератор фрактальных изображений Мандельброта и Джулии",
+  "main": "fractal.js",
+  "scripts": {
+    "start": "node fractal.js",
+    "generate": "node fractal.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fractal",
+    "mandelbrot",
+    "julia",
+    "generator",
+    "canvas",
+    "art"
+  ],
+  "author": "<3d@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudliy/fractalGeneratorNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dudliy/fractalGeneratorNodeJs/issues"
+  },
+  "homepage": "https://github.com/dudliy/fractalGeneratorNodeJs#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
